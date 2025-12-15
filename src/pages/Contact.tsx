@@ -209,6 +209,25 @@ const Contact = () => {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-white/70 backdrop-blur-sm">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-4xl font-bold mb-4 text-slate-900">Как нас найти</h2>
+            <p className="text-xl text-slate-600">г. Кемерово, Кузбасс</p>
+          </div>
+          <div className="rounded-3xl overflow-hidden shadow-2xl border-2 border-slate-200/60 animate-scale-in">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?ll=86.087314%2C55.354968&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzEyMzc2MRJb0KDQvtGB0YHQuNGPLCDQmtC10LzQtdGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQmtC10LzQtdGA0L7QstC-IgoNYVcdQhWLW1FC&z=12"
+              width="100%"
+              height="500"
+              frameBorder="0"
+              allowFullScreen
+              className="w-full"
+            />
+          </div>
+        </div>
+      </section>
+
       <footer className="bg-slate-900 text-white py-10 px-4">
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
